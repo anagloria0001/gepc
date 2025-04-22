@@ -1,0 +1,32 @@
+#include <iostream>//biblioteca de input e output do c++
+using namespace std; // para não precisar colocar antes dos comandos cin e cout
+
+int main()
+{
+    //cout<<"Hello World";//print
+    //int a; 
+    //cin >> a;//inserir
+    //cout << a
+    
+    //int a;
+    //cin >> a;
+    //a = a - 3;
+    //cout << a;
+    
+    int x, y, s;
+    cin >> x >> y;
+    s = x + y;
+    //cout << s;
+    //cout << x + y;
+
+    if(s > 0){
+        cout << "soma maior que 0:)";
+    }
+    else if(s == 0){
+        cout << "soma igual a 0:)";
+    }
+    else{
+        cout << "soma menor que 0:)";
+    }
+
+}
