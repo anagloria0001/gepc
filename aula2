@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int p, r;
+    cout << "Indique a posição da porta P: ";
+    cin >> p;
+    cout << "Indique a posição da porta R: ";
+    cin >> r;
+    
+    if(p==0)
+    cout << "A bolinha vai pelo caminho c";
+    else if(p==1)
+    
+
+    return 0;
+}
