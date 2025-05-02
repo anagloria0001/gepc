@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   //int vet[10];
+   
+   //vet[0]=1;
+   //vet[1]=2;
+   
+   //for(int i=0; i<10; i++){
+   //    cin >> vet[i];
+   //}
+   //for(int i=0;i<10; i++){
+    //   cout << vet[i];
+  // }
+  //int n,i;
+ // cin >> n;
+ // int vet[n];
+  
+  //for(i=0;i<n;i++){
+//cin >> vet[i];
+  //}
+ // for(i=0;i<n;i++){
+//      cout << vet[i];
+ // }
+ // int soma;
+ // soma=0;
+ // for(i=0;i<n;i++){
+ //     soma=soma+vet[i];
+ // }
+ // cout << "\n A soma é " << soma;
+ 
+ 
+ 
+ 
+  int n,i;
+  cin >> n;
+  int vet[n];
+  int menor;
+  for(i=0;i<n;i++){
+      cin >> vet[i];
+  }
+  menor=vet[0];
+  for(i=1;i<n;i++){
+   if(vet[i]<menor) menor=vet[i];
+  }
+  
+  cout << menor;
+
+}
